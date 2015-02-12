@@ -1,8 +1,8 @@
 {
-    "name": "magento-hackathon/async-index",
+    "name": "zookal/async-index",
     "license": "MIT",
     "type": "magento-module",
-    "description": "This extension allows to execute the index process asyncronously",
+    "description": "This extension allows to execute the index process asynchronously",
     "authors": [
         {
             "name": "Daniel Fahlke aka Flyingmana",

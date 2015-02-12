@@ -29,15 +29,6 @@
         <events>
         </events>
     </global>
-    <adminhtml>
-        <layout>
-            <updates>
-                <hackathon_asyncindex>
-                    <file>hackathon_asyncindex.xml</file>
-                </hackathon_asyncindex>
-            </updates>
-        </layout>
-    </adminhtml>
     <crontab>
         <jobs>
             <hackathon_asyncindex_cron>

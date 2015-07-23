@@ -1,9 +1,10 @@
 AsyncIndex
 ==========
 
+Topper:
+- run it /bin/sh /home/pooltopp/staging_html/cron.sh shell/hackathon_async_index.php >> /home/pooltopp/staging_html/var/log/cronAsyncIndex.log 2>&1
+
 Zookal adaptions:
- 
-- in `hackathon_async_index.php` first 5 lines.
 - run it `*/15 * * * * /bin/sh htdocs/cron.sh shell/hackathon_async_index.php >> var/cronAsyncIndex.log 2>&1` and
 not via normal Magento cronjob
 

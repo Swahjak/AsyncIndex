@@ -1,6 +1,10 @@
 <?php
 
-require_once('abstract.php');
+if ( file_exists('abstract.php') ) {
+    require_once('abstract.php');
+} elseif ( file_exists(getcwd().'/'.'shell/abstract.php') ) {
+    require_once(getcwd().'/'.'shell/abstract.php');
+}
 
 /**
  * Magento Compiler Shell Script
